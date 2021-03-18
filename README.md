@@ -28,13 +28,13 @@ The actual algorithm is a replica of the Cosine Similarity algorithm. Here are t
 This web app consists of the following files:
 ```
 src
-|     templates
-|______|      Homepage.html
-|       app.py
-|       Dockerfile
-|       punctuations.json
-|       Readme.md
-|       requirements.txt
+|______ templates
+|       |______ Homepage.html
+|______ app.py
+|______ Dockerfile
+|______ punctuations.json
+|______ Readme.md
+|______ requirements.txt
 ```
 ## Running the app:
 To run the app, use the follow commands:
