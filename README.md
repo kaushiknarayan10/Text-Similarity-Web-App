@@ -40,4 +40,4 @@ src
 To run the app, use the follow commands:
 - `docker build -t IMAGE_NAME .`
 - `docker run --name IMAGE_NAME -p 5001:5001 IMAGE_NAME `
-Go to [localhost](http://0.0.0.0:5001/) and enter the texts to find the similarity.
+- Go to [localhost](http://0.0.0.0:5001/) and enter the texts to find the similarity.
