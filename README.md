@@ -33,7 +33,6 @@ src
 |______ app.py
 |______ Dockerfile
 |______ punctuations.json
-|______ Readme.md
 |______ requirements.txt
 ```
 ## Running the app:
