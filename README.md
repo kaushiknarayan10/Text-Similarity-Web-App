@@ -26,7 +26,7 @@ The actual algorithm is a replica of the Cosine Similarity algorithm. Here are t
 
 ## Source Code:
 This web app consists of the following files:
-.
+```
 src
 |     templates
 |______|      Homepage.html
@@ -35,7 +35,7 @@ src
 |       punctuations.json
 |       Readme.md
 |       requirements.txt
-
+```
 ## Running the app:
 To run the app, use the follow commands:
     `docker build -t IMAGE_NAME .`
