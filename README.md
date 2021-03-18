@@ -20,8 +20,8 @@ The actual algorithm is a replica of the Cosine Similarity algorithm. Here are t
 - We create an 'All Words' vector by taking the union of these 2 sets.This vector has words from both text 1 and text 2.
 - Now, we create 2 new lists that have 1 for every word in text 1 that is present in text 2. If not, we substitute it with 0.
 - For every word in both texts, we find the cosine similarity using the following formula :
-        `similarity = similarity + word in text 1(1 or 0) x word in text 2 (1 or 0)`
-        `cosine_similarity = similarity / (sum of common words from text 1 in text 2 x sum of common words from text 2 in text 1) power of 0.5`
+- - `similarity = similarity + word in text 1(1 or 0) x word in text 2 (1 or 0)`
+- - `cosine_similarity = similarity / (sum of common words from text 1 in text 2 x sum of common words from text 2 in text 1) power of 0.5`
 - This will give us a good idea if the 2 texts are similar or not.
 
 ## Source Code:
@@ -38,6 +38,6 @@ src
 ```
 ## Running the app:
 To run the app, use the follow commands:
-    `docker build -t IMAGE_NAME .`
-    `docker run --name IMAGE_NAME -p 5001:5001 IMAGE_NAME `
+--- `docker build -t IMAGE_NAME .`
+--- `docker run --name IMAGE_NAME -p 5001:5001 IMAGE_NAME `
 Go to [localhost](http://0.0.0.0:5001/) and enter the texts to find the similarity.
